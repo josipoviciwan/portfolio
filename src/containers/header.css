@@ -1,0 +1,27 @@
+header {
+	height: 100vh;
+	display: flex;
+}
+.header-wrapper {
+	padding: 0 1rem;
+	margin: auto;
+}
+h1 {
+	font-size: 3.3rem;
+	font-weight: 700;
+}
+strong {
+	background-image: linear-gradient(135deg, #02aab0, #00cdac);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 56.25em) {
+	.header-wrapper {
+		text-align: center;
+	}
+	h1 {
+		font-size: 3rem;
+		line-height: 1.3;
+	}
+}

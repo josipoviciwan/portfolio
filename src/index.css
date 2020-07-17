@@ -1,0 +1,47 @@
+* {
+	padding: 0px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.lin-background {
+	background-image: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
+.animate-left {
+	position: relative;
+	animation: animateleft 1s;
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 2.5rem;
+	padding: 50px 0;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@keyframes animateleft {
+	from {
+		left: -100px;
+		opacity: 0;
+	}
+	to {
+		left: 0;
+		opacity: 1;
+	}
+}
