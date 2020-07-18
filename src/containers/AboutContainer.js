@@ -8,7 +8,7 @@ const AboutContainer = () => {
 		<article className="lin-background animate-left" id="about">
 			<h2>ABOUT ME</h2>
 			<div className="flexbox">
-				<div className="profile-image-wrapper">
+				<div className="image-wrapper">
 					<img src={Profile} className="profile-photo" alt="profile" />
 				</div>
 				<div className="about-text">
@@ -25,7 +25,8 @@ const AboutContainer = () => {
 					<Button
 						buttonText="View my CV"
 						buttonLink="https://drive.google.com/file/d/1398Z115izWHj2S1Y8axk9nctkwBQI0oA/view?usp=sharing"
-						buttonClass="btn-color btn-small"
+						buttonClass="btn btn-color btn-small"
+						newTab={true}
 					></Button>
 				</div>
 			</div>

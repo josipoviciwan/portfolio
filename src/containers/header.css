@@ -6,10 +6,8 @@ header {
 	padding: 0 1rem;
 	margin: auto;
 }
-h1 {
-	font-size: 3.3rem;
-	font-weight: 700;
-}
+
+
 strong {
 	background-image: linear-gradient(135deg, #02aab0, #00cdac);
 	-webkit-background-clip: text;

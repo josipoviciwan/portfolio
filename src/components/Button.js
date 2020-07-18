@@ -1,9 +1,9 @@
 import React from 'react';
 import './button.css';
 
-const Button = ({ buttonText, buttonLink, buttonClass }) => {
+const Button = ({ buttonText, buttonLink, buttonClass, newTab = false }) => {
 	return (
-		<a href={buttonLink}>
+		<a href={buttonLink} target={newTab ? '_blank' : '_self'}>
 			<input
 				type="button"
 				className={'btn ' + buttonClass}

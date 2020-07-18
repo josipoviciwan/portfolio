@@ -6,6 +6,7 @@ import { projectsData } from '../data/projects';
 const ProjectsContainer = () => {
 	return (
 		<main>
+			<h2>PROJECTS</h2>
 			{projectsData.map((project, key) => {
 				return <Project project={project} key={key}></Project>;
 			})}

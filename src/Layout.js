@@ -4,6 +4,8 @@ import {
 	AboutContainer,
 	ProjectsContainer,
 	FooterContainer,
+	CertificatesContainer,
+	ContactContainer,
 } from './containers';
 
 function Layout() {
@@ -12,6 +14,8 @@ function Layout() {
 			<HeaderContainer></HeaderContainer>
 			<AboutContainer></AboutContainer>
 			<ProjectsContainer></ProjectsContainer>
+			<CertificatesContainer></CertificatesContainer>
+			<ContactContainer></ContactContainer>
 			<FooterContainer></FooterContainer>
 		</div>
 	);

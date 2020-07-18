@@ -1,17 +1,14 @@
-.profile-photo {
-	width: 100%;
-}
 #about {
 	padding: 0 0 200px 0;
 	align-items: center;
-	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .about-text {
-	font-size: 1.15em;
+	
 	margin: 50px;
 	width: 400px;
 	color: white;
-	font-weight: 500;
+
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;

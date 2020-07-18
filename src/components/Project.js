@@ -7,15 +7,15 @@ const Project = (props) => {
 
 	return (
 		<div className="project-wrapper">
-			<h3 className="project-title">{title}</h3>
 			<div className="project-container">
 				<div className="text-wrapper">
-					<p>{description}</p>
-					<Button
+					<h3 className="project-title">{title}</h3>
+					<p>{description}					<Button
 						buttonText="View code"
 						buttonLink={link}
-						buttonClass="btn btn-white"
-					></Button>
+						buttonClass="btn btn-white btn-small"
+					></Button></p>
+
 				</div>
 				<div className="image-wrapper">
 					<img src={require(`../images/${image}`)} alt="project" />
