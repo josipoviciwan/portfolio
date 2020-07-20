@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'fontello';
+	src: local('fontello'), url(../fonts/fontello.woff) format('woff');
+}
+#footer{
+	background-color: #333333;
+	padding: 20px 0;
+}
+#footer * {
+	font-family: 'fontello';
+	background-color: #333333;
+	color: white;
+	text-align: center;
+}
+#footer > div {
+	width: auto;
+	padding: 20px;
+}
+hr {
+	width: 70%;
+	margin: 0 auto;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0.75),
+		rgba(255, 255, 255, 0)
+	);
+}
+footer a{
+	padding: 1rem;
+	font-size: 1.5rem;
+
+	text-decoration: none;
+}
+.social-links > a {
+
+}

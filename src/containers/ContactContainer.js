@@ -4,7 +4,7 @@ import './contact.css';
 
 const ContactContainer = () => {
 	return (
-		<section className="contact-section">
+		<section className="contact-section lin-background">
 			<Contact></Contact>
 		</section>
 	);

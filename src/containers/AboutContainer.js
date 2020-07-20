@@ -21,13 +21,14 @@ const AboutContainer = () => {
 						ipsa animi maiores repellendu distinctioaperiam earum dolor
 						voluptatum consequatur blanditiis inventore debitis fuga numquam
 						voluptate architecto itaque molestiae.
+						<br />
+						<Button
+							buttonText="View my CV"
+							buttonLink="https://drive.google.com/file/d/1398Z115izWHj2S1Y8axk9nctkwBQI0oA/view?usp=sharing"
+							buttonClass="btn btn-color btn-small"
+							newTab={true}
+						></Button>
 					</p>
-					<Button
-						buttonText="View my CV"
-						buttonLink="https://drive.google.com/file/d/1398Z115izWHj2S1Y8axk9nctkwBQI0oA/view?usp=sharing"
-						buttonClass="btn btn-color btn-small"
-						newTab={true}
-					></Button>
 				</div>
 			</div>
 		</article>

@@ -4,31 +4,26 @@
 	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .about-text {
-	
-	margin: 50px;
+
 	width: 400px;
 	color: white;
 
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-
-
 }
 .profile-image-wrapper {
 	margin: 50px;
-	max-width: 400px;
+	max-width: 300px;
 }
 
 @media (max-width: 56.25em) {
-
 	.profile-image-wrapper {
 		margin: 0;
 	}
 }
 @media (max-width: 1440px) {
 	#about {
-
 		clip-path: none;
 		padding: 0 0 10px 0;
 	}

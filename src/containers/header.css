@@ -3,10 +3,9 @@ header {
 	display: flex;
 }
 .header-wrapper {
-	padding: 0 1rem;
+	padding: 0 0.9rem;
 	margin: auto;
 }
-
 
 strong {
 	background-image: linear-gradient(135deg, #02aab0, #00cdac);

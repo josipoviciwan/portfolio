@@ -21,6 +21,13 @@ img {
 	min-width: 320px;
 }
 .image-wrapper {
-	max-width: 500px;
 	min-width: 320px;
+	max-width: 500px;
+	margin: 0 50px;
+}
+ul {
+	text-align: left;
+	margin-left: 30px;
+}
+li {
 }

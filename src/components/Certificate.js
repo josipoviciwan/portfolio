@@ -4,7 +4,7 @@ const Certificate = (props) => {
 	const { name, image, description } = props.certificate;
 	return (
 		<div className="certificate-container">
-			<div className="image-wrapper">
+			<div className="image-wrapper certificate">
 				<img src={require(`../images/${image}`)} alt="certificate" />
 			</div>
 			<div className="text-wrapper">

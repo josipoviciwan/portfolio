@@ -12,7 +12,7 @@ main {
 	color: black;
 }
 
-article {
+article, .contact-section {
 	color: white;
 }
 
@@ -28,8 +28,10 @@ h2 {
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
+	width: 100%;
+	margin-bottom: 2rem;
 }
 
 .lin-background {
@@ -42,9 +44,10 @@ h3 {
 }
 
 p {
-	padding: 1rem;
+	padding: 1rem ;
 	font-size: 1.15em;
 	font-weight: 400;
+	text-align: center;
 }
 
 .flexbox {

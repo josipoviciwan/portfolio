@@ -1,38 +1,27 @@
 const projectsData = [
 	{
-		title: 'Title',
+		title: 'GigNums',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctio aperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.',
+			'A desktop and mobile friendly application built for musician to track their monthly incomes with graphical data visualisation.',
 		link: 'www.google.com',
-		image: 'project.jpg',
+		image: 'gignums.png',
+		stack: ['ReactJS', 'Redux', 'Firebase Authorisation', 'Firebase database'],
 	},
 	{
-		title: 'Title',
+		title: 'Cobe project',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctio aperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.',
-		link: 'www.google.com',
-		image: 'project.jpg',
+			'A responsive web application made for searching, exploring and rating movies by using The Movie Database API.',
+		link: 'https://github.com/josipoviciwan/cobe',
+		image: 'cobe.png',
+		stack: ['React hooks', 'TMDb API', 'Bootstrap', 'Authorisation', 'ReactJS'],
 	},
 	{
-		title: 'Title',
+		title: 'LyrX',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctio aperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.',
+			'Application built for searching lyrics, and saving them so that they can be used offline.',
 		link: 'www.google.com',
-		image: 'project.jpg',
-	},
-	{
-		title: 'Title',
-		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctio aperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.',
-		link: 'www.google.com',
-		image: 'project.jpg',
-	},
-	{
-		title: 'Title',
-		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendus distinctio aperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate ex architecto itaque molestiae.',
-		link: 'www.google.com',
-		image: 'project.jpg',
+		image: 'lyrx.png',
+		stack: ['ReactJS', 'NodeJS', 'Redux Persist', 'Redux', 'Firebase database'],
 	},
 ];
 export { projectsData };

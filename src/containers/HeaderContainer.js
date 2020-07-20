@@ -4,7 +4,7 @@ import { Button } from '../components';
 
 const HeaderContainer = () => {
 	return (
-		<header className="animate-left">
+		<header className="animate-left" id="header">
 			<div className="header-wrapper ">
 				<h1>
 					Hi, my name is <strong>Iwan Josipović</strong> <br />
