@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dba187d3.chunk.css",
-    "main.js": "/portfolio/static/js/main.d969f73a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d969f73a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d6fecfd0.chunk.css",
+    "main.js": "/portfolio/static/js/main.065ce372.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.065ce372.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.3c44a60c.chunk.js": "/portfolio/static/js/2.3c44a60c.chunk.js",
     "static/js/2.3c44a60c.chunk.js.map": "/portfolio/static/js/2.3c44a60c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4a06c391bb1fa1cb78f18bc8ed463fc3.js": "/portfolio/precache-manifest.4a06c391bb1fa1cb78f18bc8ed463fc3.js",
+    "precache-manifest.bd74529798e1b722f841cbc031892f29.js": "/portfolio/precache-manifest.bd74529798e1b722f841cbc031892f29.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.dba187d3.chunk.css.map": "/portfolio/static/css/main.dba187d3.chunk.css.map",
+    "static/css/main.d6fecfd0.chunk.css.map": "/portfolio/static/css/main.d6fecfd0.chunk.css.map",
     "static/js/2.3c44a60c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3c44a60c.chunk.js.LICENSE.txt",
     "static/media/cobe.png": "/portfolio/static/media/cobe.ae7e626d.png",
     "static/media/footer.css": "/portfolio/static/media/fontello.328728fa.woff",
     "static/media/gignums.png": "/portfolio/static/media/gignums.721f121f.png",
     "static/media/ieee.jpg": "/portfolio/static/media/ieee.ce2d5aeb.jpg",
-    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.154629f2.svg",
     "static/media/lyrx.png": "/portfolio/static/media/lyrx.ac710483.png",
-    "static/media/profile.png": "/portfolio/static/media/profile.471661ad.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.c55f08e3.png",
     "static/media/skillvalue.png": "/portfolio/static/media/skillvalue.f1694f1d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.3c44a60c.chunk.js",
-    "static/css/main.dba187d3.chunk.css",
-    "static/js/main.d969f73a.chunk.js"
+    "static/css/main.d6fecfd0.chunk.css",
+    "static/js/main.065ce372.chunk.js"
   ]
 }
