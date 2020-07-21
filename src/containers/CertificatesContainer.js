@@ -1,7 +1,7 @@
 import React from 'react';
 import { Certificate } from '../components';
 import { certificates } from '../data/certificates';
-
+import './certificates.css';
 const CertificatesContainer = () => {
 	return (
 		<section>

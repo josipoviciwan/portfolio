@@ -1,5 +1,4 @@
 import React from 'react';
-import './button.css';
 
 const Button = ({ buttonText, buttonLink, buttonClass, newTab = false }) => {
 	return (

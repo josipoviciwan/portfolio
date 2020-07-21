@@ -1,5 +1,10 @@
-.contact-section{
-    padding: 50px 0 0 0;
+.contact-section {
+	padding: 50px 0 0 0;
 	align-items: center;
-
+}
+.contact-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
