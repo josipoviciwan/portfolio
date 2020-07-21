@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Button } from '.';
 import './project.css';
-
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 const Project = (props) => {
 	const { title, description, link, image, stack } = props.project;
 
+	const myRef = useRef(title);
+	const executeScroll = () => scrollToRef(myRef);
 	return (
-		<div className="project-wrapper">
+		<div className="project-wrapper" ref={myRef}>
 			<div className="project-container">
-			<h3 className="project-title">{title}</h3>
+				<h3 className="project-title">{title}</h3>
 				<div className="text-wrapper">
-					
 					<p>
 						<ul>
 							{stack.map((skill) => {
@@ -19,14 +20,15 @@ const Project = (props) => {
 						</ul>
 						<br />
 						{description}
-			
-
 						<br />
-						<Button
-							buttonText="View code"
-							buttonLink={link}
-							buttonClass="btn btn-white btn-small"
-						></Button>
+						<div onClick={executeScroll}>
+							<Button
+								buttonText="View code"
+								buttonLink={link}
+								buttonClass="btn btn-white btn-small"
+								newTab={true}
+							></Button>
+						</div>
 					</p>
 				</div>
 				<div className="image-wrapper">

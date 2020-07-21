@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as Linkedin } from '../images/linkedin.svg';
 import './footer.css';
 const Footer = () => {
 	return (
@@ -12,16 +11,29 @@ const Footer = () => {
 				<a
 					href="https://www.linkedin.com/in/iwan-josipovi%C4%87-b1357170/"
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					&#xf0e1;
 				</a>
-				<a href="https://github.com/josipoviciwan" target="_blank">
+				<a
+					href="https://github.com/josipoviciwan"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					&#xf09b;
 				</a>
-				<a href="https://www.facebook.com/iwanjosip96" target="_blank">
+				<a
+					href="https://www.facebook.com/iwanjosip96"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					&#xf09a;
 				</a>
-				<a href="https://www.instagram.com/codefortwo/" target="_blank">
+				<a
+					href="https://www.instagram.com/codefortwo/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					&#xf16d;
 				</a>
 			</div>

@@ -8,7 +8,7 @@ const HeaderContainer = () => {
 			<div className="header-wrapper ">
 				<h1>
 					Hi, my name is <strong>Iwan Josipović</strong> <br />
-					I'm a full-stack developer.
+					I'm a growing developer.
 				</h1>
 				<Button
 					buttonText="Get to know me"

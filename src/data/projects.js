@@ -3,7 +3,7 @@ const projectsData = [
 		title: 'GigNums',
 		description:
 			'A desktop and mobile friendly application built for musician to track their monthly incomes with graphical data visualisation.',
-		link: 'www.google.com',
+		link: 'https://github.com/josipoviciwan/GigNums',
 		image: 'gignums.png',
 		stack: ['ReactJS', 'Redux', 'Firebase Authorisation', 'Firebase database'],
 	},
@@ -19,7 +19,7 @@ const projectsData = [
 		title: 'LyrX',
 		description:
 			'Application built for searching lyrics, and saving them so that they can be used offline.',
-		link: 'www.google.com',
+		link: 'https://github.com/josipoviciwan/LyrX',
 		image: 'lyrx.png',
 		stack: ['ReactJS', 'NodeJS', 'Redux Persist', 'Redux', 'Firebase database'],
 	},

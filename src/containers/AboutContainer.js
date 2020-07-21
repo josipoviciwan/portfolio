@@ -13,14 +13,14 @@ const AboutContainer = () => {
 				</div>
 				<div className="about-text">
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-						neque, ipsa animi maiores repellendu distinctioaperiam earum dolor
-						voluptatum consequatur blanditiis inventore debitis fuga numquam
-						voluptate architecto itaque molestiae.<br></br> <br></br> Lorem
-						ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque,
-						ipsa animi maiores repellendu distinctioaperiam earum dolor
-						voluptatum consequatur blanditiis inventore debitis fuga numquam
-						voluptate architecto itaque molestiae.
+						A <span>computer science master's degree</span> and{' '}
+						<span>mathematics bachelor's degree</span>
+						resulted in strong algorithmic, time complexity and analytical
+						skills.
+						<br />
+						<br />
+						"If you match all the requirements for the job, you have nothing to
+						learn."
 						<br />
 						<Button
 							buttonText="View my CV"
