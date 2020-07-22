@@ -1,7 +1,7 @@
 import React from 'react';
 import { Project } from '../components';
 import { projectsData } from '../data/projects';
-import './projects.css'
+import './projects.css';
 
 const ProjectsContainer = () => {
 	return (

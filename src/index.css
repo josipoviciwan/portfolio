@@ -17,6 +17,10 @@ article,
 	color: white;
 }
 
+.lin-background {
+	background-image: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
 h1 {
 	font-size: 3.3rem;
 	font-weight: 700;
@@ -35,20 +39,14 @@ h3 {
 	margin-bottom: 2rem;
 }
 
-.lin-background {
-	background-image: linear-gradient(135deg, #02aab0, #00cdac);
-}
-
-.animate-left {
-	position: relative;
-	animation: animateleft 1s;
-}
-
 p {
 	padding: 1rem;
 	font-size: 1.15em;
 	font-weight: 400;
 	text-align: center;
+}
+a {
+	text-decoration: none;
 }
 
 .flexbox {
@@ -102,18 +100,4 @@ p {
 	color: #00cdac;
 	border-color: #00cdac;
 	background-color: white;
-}
-a {
-	text-decoration: none;
-}
-
-@keyframes animateleft {
-	from {
-		left: -100px;
-		opacity: 0;
-	}
-	to {
-		left: 0;
-		opacity: 1;
-	}
 }

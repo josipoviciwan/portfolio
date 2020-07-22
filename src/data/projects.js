@@ -23,5 +23,12 @@ const projectsData = [
 		image: 'lyrx.png',
 		stack: ['ReactJS', 'NodeJS', 'Redux Persist', 'Redux', 'Firebase database'],
 	},
+	{
+		title: 'My portfolio website',
+		description: 'A website for displaying projects i made until now.',
+		link: 'https://github.com/josipoviciwan/portfolio',
+		image: 'portfolio.png',
+		stack: ['ReactJS', 'GitHub pages deployment', 'JSON data'],
+	},
 ];
 export { projectsData };
