@@ -25,7 +25,7 @@ const projectsData = [
 	},
 	{
 		title: 'My portfolio website',
-		description: 'A website for displaying projects i made until now.',
+		description: 'A website for displaying projects I made until now.',
 		link: 'https://github.com/josipoviciwan/portfolio',
 		image: 'portfolio.png',
 		stack: ['ReactJS', 'GitHub pages deployment', 'JSON data'],
