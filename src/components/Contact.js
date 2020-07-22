@@ -12,7 +12,7 @@ const Contact = () => {
 						Feel free to contact me.
 						<br />
 						<Button
-							buttonText="Contact me"
+							buttonText="Send me an email!"
 							buttonLink="mailto:josipoviciwan@gmail.com?Subject=Hello%20Iwan!"
 							buttonClass="btn btn-color btn-large"
 							newTab={true}
