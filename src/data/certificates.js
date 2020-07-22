@@ -9,7 +9,7 @@ const certificates = [
 	{
 		name: 'IEEEXtreme coding competition: ',
 		description:
-			': Our team ended up being 2nd in Croatia, and 251st globally among 3500 registered teams. We mostly used C++ for solving the tasks.',
+			' Our team ended up being 2nd in Croatia, and 251st globally among 3500 registered teams. We mostly used C++ for solving the tasks.',
 		image: 'ieee.jpg',
 	},
 ];
