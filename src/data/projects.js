@@ -7,6 +7,7 @@ const projectsData = [
 		image: 'gignums.png',
 		stack: ['ReactJS', 'Redux', 'Firebase Authorisation', 'Firebase database'],
 	},
+
 	{
 		title: 'Cobe project',
 		description:
@@ -14,6 +15,14 @@ const projectsData = [
 		link: 'https://github.com/josipoviciwan/cobe',
 		image: 'cobe.png',
 		stack: ['React hooks', 'TMDb API', 'Bootstrap', 'Authorisation', 'ReactJS'],
+	},
+	{
+		title: 'uHunt',
+		description:
+			'Solving aglorithm problems in low level programming languages on the uHunt platform. Hope I will continue that journey soon!',
+		link: 'https://github.com/josipoviciwan/UVa',
+		image: 'uhunt.png',
+		stack: ['C++', 'Python', 'Algorithms', 'Data structures', 'Optimization'],
 	},
 	{
 		title: 'LyrX',
