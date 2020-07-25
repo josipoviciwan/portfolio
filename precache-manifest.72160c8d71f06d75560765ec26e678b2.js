@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "112d32279960703798ed6eeac2140b69",
+    "revision": "a0c328e71d0b45d0b9e533c66fc1add9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "63fd1540706b9d167bd9",
+    "revision": "098775b9e5a78b51f5e1",
     "url": "/portfolio/static/css/main.cd25f7a9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.7b95b4e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63fd1540706b9d167bd9",
-    "url": "/portfolio/static/js/main.d4e98a49.chunk.js"
+    "revision": "098775b9e5a78b51f5e1",
+    "url": "/portfolio/static/js/main.093481f7.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/skillvalue.1e85c6fb.png"
   },
   {
-    "revision": "d15383b84aaf75bd881c783d3f8e3afe",
-    "url": "/portfolio/static/media/uhunt.d15383b8.png"
+    "revision": "4def83cc6978283146a93469e5dba6a2",
+    "url": "/portfolio/static/media/uhunt.4def83cc.png"
   }
 ]);
