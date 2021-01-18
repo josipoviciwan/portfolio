@@ -9,7 +9,7 @@ const Footer = () => {
 			<hr></hr>
 			<div className="social-links">
 				<a
-					href="https://www.linkedin.com/in/iwan-josipovi%C4%87-b1357170/"
+					href="https://www.linkedin.com/in/josipoviciwan"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
