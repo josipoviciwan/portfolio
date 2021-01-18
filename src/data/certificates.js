@@ -5,7 +5,6 @@ const certificates = [
 			' Solving algorithmic progamming problems on the hackerrank platform.',
 		image: 'ublox.png',
 	},
-
 	{
 		name:
 			'Winner of "Challenges for Programmers Croatia" competition in the experienced category: ',
