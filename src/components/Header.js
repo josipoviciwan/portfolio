@@ -7,7 +7,7 @@ const Header = () => {
 			<Fade left>
 				<h1>
 					Hi, my name is <strong>Iwan Josipović,</strong> <br />
-					I'm a growing developer.
+					I'm a growing engineer.
 				</h1>
 				<Button
 					buttonText="Get to know me"
